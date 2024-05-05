@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header__top">
+      <div class="container container-flex">
+        <div class="header__top-wrap">
+          <a href="#" class="header__top-logo">
+            <img src="image/svg/logo.svg" alt=""></a>
+          <ul class="header__top-list">
+            <li class="header__top-item">
+              <a href="#" class="header__top-link">Home</a>
+            </li>
+            <li class="header__top-item">
+              <a href="#" class="header__top-link">
+                <span>Leistungen</span>
+                <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.39844 0.75C8.39844 0.6875 8.36719 0.617187 8.32031 0.570312L7.92969 0.179687C7.88281 0.132812 7.8125 0.101562 7.75 0.101562C7.6875 0.101562 7.61719 0.132812 7.57031 0.179687L4.5 3.25L1.42969 0.179687C1.38281 0.132812 1.3125 0.101562 1.25 0.101562C1.17969 0.101562 1.11719 0.132812 1.07031 0.179687L0.679688 0.570312C0.632813 0.617187 0.601563 0.6875 0.601563 0.75C0.601563 0.8125 0.632813 0.882812 0.679688 0.929687L4.32031 4.57031C4.36719 4.61719 4.4375 4.64844 4.5 4.64844C4.5625 4.64844 4.63281 4.61719 4.67969 4.57031L8.32031 0.929687C8.36719 0.882812 8.39844 0.8125 8.39844 0.75Z" fill="black"/>
+                </svg>
+              </a>
+            </li>
+            <li class="header__top-item">
+              <a href="#" class="header__top-link">
+                <span>Standorte</span>
+                <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.39844 0.75C8.39844 0.6875 8.36719 0.617187 8.32031 0.570312L7.92969 0.179687C7.88281 0.132812 7.8125 0.101562 7.75 0.101562C7.6875 0.101562 7.61719 0.132812 7.57031 0.179687L4.5 3.25L1.42969 0.179687C1.38281 0.132812 1.3125 0.101562 1.25 0.101562C1.17969 0.101562 1.11719 0.132812 1.07031 0.179687L0.679688 0.570312C0.632813 0.617187 0.601563 0.6875 0.601563 0.75C0.601563 0.8125 0.632813 0.882812 0.679688 0.929687L4.32031 4.57031C4.36719 4.61719 4.4375 4.64844 4.5 4.64844C4.5625 4.64844 4.63281 4.61719 4.67969 4.57031L8.32031 0.929687C8.36719 0.882812 8.39844 0.8125 8.39844 0.75Z" fill="black"/>
+                </svg>
+              </a>
+            </li>
+            <li class="header__top-item">
+              <a href="#" class="header__top-link">
+                <span>Unternehmen</span>
+                <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.39844 0.75C8.39844 0.6875 8.36719 0.617187 8.32031 0.570312L7.92969 0.179687C7.88281 0.132812 7.8125 0.101562 7.75 0.101562C7.6875 0.101562 7.61719 0.132812 7.57031 0.179687L4.5 3.25L1.42969 0.179687C1.38281 0.132812 1.3125 0.101562 1.25 0.101562C1.17969 0.101562 1.11719 0.132812 1.07031 0.179687L0.679688 0.570312C0.632813 0.617187 0.601563 0.6875 0.601563 0.75C0.601563 0.8125 0.632813 0.882812 0.679688 0.929687L4.32031 4.57031C4.36719 4.61719 4.4375 4.64844 4.5 4.64844C4.5625 4.64844 4.63281 4.61719 4.67969 4.57031L8.32031 0.929687C8.36719 0.882812 8.39844 0.8125 8.39844 0.75Z" fill="black"/>
+                </svg>
+              </a>
+            </li>
+            <li class="header__top-item">
+              <a href="#" class="header__top-link">Jobs</a>
+            </li>
+            <li class="header__top-item">
+              <a href="#" class="header__top-link">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__top-wrap">
+          <a href="tel:04068874350" class="header__top-phone">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.66965 9.7014C6.44762 11.2919 7.73687 12.5753 9.3309 13.346C9.44753 13.4013 9.57654 13.4252 9.70523 13.4155C9.83392 13.4058 9.95786 13.3627 10.0648 13.2905L12.4119 11.7254C12.5157 11.6562 12.6352 11.6139 12.7594 11.6025C12.8837 11.5911 13.0088 11.6109 13.1235 11.66L17.5144 13.5419C17.6636 13.6052 17.7881 13.7154 17.8693 13.8556C17.9504 13.9959 17.9838 14.1588 17.9643 14.3197C17.8255 15.4057 17.2956 16.4039 16.4739 17.1273C15.6521 17.8508 14.5948 18.2499 13.5 18.25C10.1185 18.25 6.87548 16.9067 4.48439 14.5156C2.0933 12.1245 0.75 8.88148 0.75 5.49997C0.750058 4.40513 1.14918 3.34786 1.87264 2.5261C2.5961 1.70435 3.59428 1.17448 4.68028 1.03569C4.84117 1.01622 5.00403 1.04956 5.14432 1.1307C5.28461 1.21183 5.39473 1.33636 5.4581 1.48552L7.34158 5.88032C7.3903 5.994 7.41015 6.11796 7.39936 6.24116C7.38858 6.36436 7.3475 6.48299 7.27977 6.58647L5.72011 8.96957C5.64912 9.07677 5.60716 9.20056 5.59831 9.32883C5.58947 9.4571 5.61405 9.58547 5.66965 9.7014V9.7014Z" stroke="#034F9A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>040 688 74 35 0</span>
+          </a>
+          <button class="header__top-btn g-btn">Ansprechpartner vor Ort</button>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <ul class="header__bottom-list">
+          <li class="header__bottom-item">
+            <a href="#">
+              <span>
+                Sicherheitsdienst in Hamburg
+              </span>
+            </a>
+          </li>
+          <li class="header__bottom-item">
+            <a href="#">
+              <span>
+                Empangsdienst in Hamburg
+              </span>
+            </a>
+          </li>
+          <li class="header__bottom-item">
+            <a href="#">
+              <span>
+                Wachdienst in Hamburg
+              </span>
+            </a>
+          </li>
+          <li class="header__bottom-item">
+            <a href="#">
+              <span>
+                Objektschutz in Hamburg
+              </span>
+            </a>
+          </li>
+          <li class="header__bottom-item">
+            <a href="#">
+              <span>
+                Sicherheitstechnik
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="info">
+      <div class="container container-flex"> 
+        <div class="info__wrap"> 
+          <h1 class="info__title">Sicherheitsdienst Hamburg</h1>
+          <h2 class="g-title info__sub-title">Full-Service Security für Hamburg und Umgebung</h2>
+          <ul class="info__list info__list--margin">
+            <li class="info__item">
+              <img src="image/svg/info-icon.svg" alt="">
+              	<h3>Full-Service Security</h3>
+             	 <p>What is Astar and how it solves current problems in crypto space</p>
+            </li>
+            <li class="info__item">
+              <img src="image/svg/info-icon.svg" alt="">
+              	<h3>Full-Service Security</h3>
+              	<p>What is Astar and how it solves current problems in crypto space</p>
+            </li>
+          </ul>
+          <ul class="info__list">
+            <li class="info__item">
+              <img src="image/svg/info-icon.svg" alt="">
+              	<h3>Full-Service Security</h3>
+              	<p>What is Astar and how it solves current problems in crypto space</p>
+            </li>
+            <li class="info__item">
+              <img src="image/svg/info-icon.svg" alt="">
+             	 <h3>Full-Service Security</h3>
+              	<p>What is Astar and how it solves current problems in crypto space</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="info__wrap info__wrap-police">
+          <img src="image/global_image.png" alt="" class="info__wrap-image">
+<svg width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.5048 39.89C10.6538 36.2241 5.42012 29.5866 2.65668 21.1805C0.502855 14.6292 0.559731 9.17358 0.563246 8.94452C0.573481 8.26812 1.15348 7.74085 1.82715 7.79405C12.4269 8.62905 17.9743 0.597256 18.0291 0.516006C18.4929 -0.17165 19.5078 -0.172353 19.972 0.516006C19.9846 0.534443 21.4 2.58929 24.1114 4.50241C27.7007 7.03483 31.7596 8.1421 36.1739 7.79405C36.8533 7.74163 37.4277 8.27241 37.4379 8.94452C37.4414 9.17358 37.4982 14.6293 35.3444 21.1805C32.5807 29.5874 27.3467 36.2244 19.4964 39.89C19.1832 40.0361 18.8203 40.0373 18.5048 39.89ZM2.94387 10.1946C3.04809 12.1142 3.4402 16.0882 4.90622 20.5183C7.55176 28.5128 12.292 34.2329 19.0006 37.5288C25.7092 34.2329 30.4494 28.5128 33.095 20.5184C34.5611 16.0883 34.9531 12.1145 35.0573 10.1947C28.6295 10.322 22.8791 7.47046 19.0006 3.04976C15.1238 7.46835 9.37817 10.3214 2.94387 10.1946V10.1946Z" fill="#034F9A"/>
+<path d="M23.9471 28.2402L18.9995 25.6389L14.0518 28.2401C13.1933 28.6912 12.1876 27.9604 12.3514 27.0047L13.2964 21.4954L9.29368 17.5936C8.59961 16.917 8.98321 15.734 9.94313 15.5947L15.4748 14.791L17.9487 9.77831C18.3778 8.90894 19.6213 8.90878 20.0504 9.77831L22.5242 14.791L28.0559 15.5947C29.0151 15.7339 29.3999 16.9166 28.7054 17.5936L24.7027 21.4954L25.6477 27.0047C25.8116 27.9622 24.8027 28.6897 23.9471 28.2402V28.2402ZM19.5448 23.2776L22.936 25.0606L22.2883 21.2843C22.223 20.9042 22.3491 20.5163 22.6253 20.247L25.3688 17.5726L21.5773 17.0217C21.1956 16.9662 20.8658 16.7265 20.695 16.3807L18.9995 12.945L17.3038 16.3807C17.133 16.7266 16.8032 16.9663 16.4215 17.0218L12.63 17.5727L15.3735 20.2471C15.6498 20.5163 15.7758 20.9042 15.7105 21.2844L15.0628 25.0607L18.4541 23.2777C18.7956 23.0982 19.2033 23.0982 19.5448 23.2776V23.2776Z" fill="#034F9A"/>
+</svg>
+
+
+       </div>
+      </div>
+    </section>
+    <section class="description">
+      <div class="container">
+        <div class="description__list">
+          <h2 class="g-title description__title">
+            Security Unternehmen Hauschildt & Blunck übernummt die entscheidenden Aufgaben im Sicherheitsdienst
+          </h2>
+          <div class="description__item">
+           <p>
+              Qualifizierte Sicherheitsdienstleistungen in Hamburg stellen sich vielfältige Herausforderungen. Unternehmen und Betriebe aus dem Bereich Industrie, Handel und Dienstleistung benötigen umfassende und spezielle Sicherheitskonzepte. Dafür steht seit 1992 das Sicherheitsunternehmen Hauschildt & Blunck.
+            </p>
+            <p>
+              Ob gewerblich oder privat: Für einen optimalen Sicherheitsdienst stellen wir unseren Kunden im gesamten Stadtgebiet der Hansestadt die passenden Leistungen zur Verfügung. Wir bieten Ihnen einen Wachdienst vor Ort in Ihrem Betriebsgebäude oder auf Ihrem Anwesen. Ist eine ständige Anwesenheit nicht erforderlich, entscheiden Sie sich für unseren mobilen Kontrolldienst. Anschließend stimmen wir mit Ihnen einen Zeitplan ab und Sie bestimmen, wann unsere geschulten Sicherheitsfachkräfte Ihr Objekt anfahren. Im Ernstfall finden diese Maßnahmen in unserer Notrufzentrale mit Alarmverfolgung eine effektive Ergänzung.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section class="logo__list">
+        <div class="logo__list-wrap  container container-flex">
+          <a href="#" class="logo__list-item">
+            <img src="image/svg/logo_mtu.svg" alt="">
+          </a>
+          <a href="#" class="logo__list-item">
+            <img src="image/svg/logo_raytheon.svg" alt="">
+          </a>
+          <a href="#" class="logo__list-item">
+            <img src="image/svg/logo_provinzial.svg" alt="">
+          </a>
+          <a href="#" class="logo__list-item">
+            <img src="image/svg/logo_NDF.svg" alt="">
+          </a>
+          <a href="#" class="logo__list-item">
+            <img src="image/svg/logo_gamburger.svg" alt="">
+          </a>
+        </div>
+      </section>
+
+      <section class="ihre">
+        <h2 class="ihre-title g-title">Ihre Vorteile bei Hauschildt & Blunck</h2>
+        <div class="container container-flex">
+          <div class="ihre-image">
+            <img src="image/Rectangle_image.png" alt="">
+          </div>
+          <div class="ihre-lisrRight">
+            <h3>Wachdienst / Werkschutz</h3>
+            <p>Schützen Sie sich und Ihr Eigentum vor Straftaten und Schäden! Unser zertifizierter Sicherheitsdienst bietet einen umfassenden Wachdienst und Werkschutz, den wir individuell auf Ihre Bedürfnisse anpassen.</p>
+            <button class="ihre-btn g-btn"><span>Angebot anfragen</span><a href="#"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1673_77)">
+            <path d="M6.68267 2.66669H10.6927L16 8.00002L10.6927 13.3334H6.68267L11.99 8.00002L6.68267 2.66669ZM0 13.3334H4.01L9.31733 8.00002L4.01 2.66669H0L5.30733 8.00002L0 13.3334H0Z" fill="white"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_1673_77">
+            <rect width="16" height="16" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>
+            </a>
+            </button>
+            <ul class="ihre-list">
+              <li class="ihre-item">
+                <a href="#">
+                  Mobiler Kontrolldienst als Objektschutz
+                </a>
+              </li>
+              <li class="ihre-item">
+                <a href="#">
+                  Interventionsdienst 
+                </a>
+              </li>
+              <li class="ihre-item">
+                <a href="#">
+                  Notrufzentrale
+                </a>
+              </li>
+              <li class="ihre-item">
+                <a href="#">
+                  Sicherheitstechnik
+                </a>
+              </li>
+              <li class="ihre-item">
+                <a href="#">
+                  Empfangsdienst
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+     <section class="overview">
+       <div class="container">
+         <div class="overview__item container-flex">
+           <div class="overview__item-text">
+             <h2 class="g-title overview__title">Sicherheitsdienst in Hamburg: Security auf höchstem Niveau</h2>
+             <div></div>
+             <p>Wir sind ein zertifizierter Full-Service Sicherheitsdienst und seit 1992 eine der ersten Adressen, wenn es um <a href="#">Objektschutz</a>, <a href="#">Wachdienst</a>, <a href="#">Empfangsdienst</a> und <a href="#">Sicherheitstechnik</a> geht. Zuverlässig, professionell, maßgeschneidert und kundennah gewährleisten wir vor Ort in der Hansestadt eine maßgeschneiderte Security und Sicherheit, die auf die regionalen Gefahren und Risiken eingeht. Das setzt hohe Erwartungen an die Sicherheitstechnik in der Umgebung von Hamburg und das maßgeschneiderte Sicherheitskonzept. Wir setzen auf zuverlässige Videokontrolle und Videoüberwachung ebenso wie auf Einlasskontrolle und Veranstaltungsschutz sowie Objektschutz an unseren Niederlassungen.</p>
+             <p>Mobil erreichen Sie uns per E-Mail oder am Telefon ebenso wie direkt vor Ort für eine persönliche Beratung. Unser Team erstellt Ihnen binnen weniger Werktage ein individuelles Angebot und maßgeschneiderte Sicherheitsdienstleistungen. Verlassen Sie sich auf das reichhaltige Know-how unseres Personals und bauen Sie auf die Erfahrung im Wachschutz sowie auf die umfassende Professionalität, die Diebstahl, Vandalismus, Zerstörung und Schäden keine Chance lässt.</p>
+           </div>
+             <div class="overview__image">
+               <img src="image/image__over.png" alt="">
+             </div>
+         </div>
+          <div class="overview__item container-flex">
+            <div class="overview__image">
+               <img src="image/image__over-2.png" alt="">
+            </div>
+            <div class="overview__item-text">
+              <h2 class="g-title overview__title">Für größere Unternehmen und umfangreichere Sicherheitsaufgaben steht Ihnen unser Werkschutz zur Verfügung</h2>
+               <ul>
+                 <li>Wir kontrollieren neben allen Bürogebäuden und Fabrikationsstätten Lagerhallen und –flächen</li>
+                 <li>Hier gehören die Personenkontrolle und die Überwachung von Alarmeinrichtungen dazu</li>
+                 <li>Wir erkennen kriminelle Taten sowie technische Ausfälle und Produktionsstörungen frühzeitig und leiten sofort entsprechende Maßnahmen ein</li>
+               </ul>
+            </div>
+          </div>
+       </div>
+     </section>
+    
+     <section class="midpoint">
+       <div class="midpoint__item">
+         <h2 class="g-title midpoint__title">
+           Make an order in Hauschildt & Blunck now and you will get
+         </h2>
+         <p class="midpoint_abs">
+            Diese Frage stellen Sie sich ebenso wie alle unsere Kunden zu Beginn eines Auftrages. Wir haben unsere Kunden befragt. Die Antworten haben wir für Sie als Entscheidungshilfe hier aufgelistet.
+         </p>
+         <ul>
+           <li>
+             <a href="tel:04068874350">
+               <span>040 688 74 35 0</span>
+             </a>
+           </li>
+           <li>
+             <a href="mailto:Info@hausschildtundbluck.de">
+               
+              <span>Info@hausschildtundbluck.de</span>
+             </a>
+           </li>
+           <li>
+             <a href="#">
+               
+               <span>Mo. - Fr.: 09.00 - 17.00 Uhr</span>
+             </a>
+           </li>
+         </ul>
+         <button class="g-btn t-btn"><span>Angebot anfragen</span><a href="">
+            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.68267 0.666626H10.6927L16 5.99996L10.6927 11.3333H6.68267L11.99 5.99996L6.68267 0.666626ZM0 11.3333H4.01L9.31733 5.99996L4.01 0.666626H0L5.30733 5.99996L0 11.3333H0Z" fill="#034F9A"/>
+              </svg>
+
+         </a></button>
+       </div>
+       <div class="midpoint__item">
+         <div class="midpoint__item-inner">
+           <div class="midpoint__item-image">
+             <img src="image/svg/low.svg" alt="">
+
+           </div>
+           <div class="midpoint__item-text">
+             <h3>Wachdienst / Werkschutz</h3>
+             <p>Schützen Sie sich und Ihr Eigentum vor Straftaten und Schäden! Unser zertifizierter Sicherheitsdienst</p>
+           </div>
+         </div>
+         <div class="midpoint__item-inner">
+           <div class="midpoint__item-image">
+             <img src="image/svg/low.svg" alt="">
+           </div>
+           <div class="midpoint__item-text">
+             <h3>Interventionsdienst</h3>
+             <p> Werkschutz, den wir individuell auf Ihre Bedürfnisse anpassen.</p>
+           </div>
+         </div>
+         <div class="midpoint__item-inner">
+           <div class="midpoint__item-image">
+             <img src="image/svg/low.svg" alt="">
+           </div>
+           <div class="midpoint__item-text">
+             <h3>Empfangsdienst</h3>
+             <p>Sicherheitsdienst bietet einen umfassenden Wachdienst und Werkschutz, den wir individuell auf Ihre Bedürfnisse anpassen.</p>
+           </div>
+         </div>
+       </div>
+     </section>
+     
+
+
+
+     <section class="individual">
+       <div class="container">
+         <h2 class="g-title individual__title">
+         Sicherheitsdienst mit individuellen Leistungen
+       </h2>
+       <div class="individual__flex">
+         <p><b>Unser Sicherheitsdienst in Hamburg übernimmt auf Wunsch den vollständigen Objektschutz</b> und den Schutz von Personen in Einkaufszentren, Ladengeschäften, Banken, Versicherungen und anderen Bürogebäuden. Nicht nur in der Hamburger Innenstadt, rund um die Alster und an der Elbe, sondern in der ganzen Hansestadt und ihren Randgebieten stehen Ihnen geschulte und erfahrene Sicherheitsfachkräfte zur Verfügung. Wir orientieren uns an den strengen Vorgaben und erfüllen individuelle Wünsche von kleinen Unternehmen bis hin zu großen Konzernen. Direkt vor Ort in Hamburg wissen wir, welche Risiken sich für ein Objekt, Liegenschaften oder Personal sowie Veranstaltungen ergeben.
+        </p>
+        <div class="individual__item">
+          <p>
+            <b>Daraufhin abgestimmt können wir anhand Ihrer Vorgaben ein individuelles Konzept entwickeln, in das wir die Dienstleistungen aufnehmen, die für umfassende Sicherheit sorgen.</b>
+          </p>
+          <ul>
+            <li>Die Wohngebietssicherung,</li>
+            <li>die Dienstleistungen im Wachschutz und</li>
+            <li>Streifendienst sowie</li>
+            <li>die Einlasskontrolle und</li>
+            <li>die Dienstleistungen im Objektschutz</li>
+          </ul>
+        </div>
+       </div>
+       </div>
+     </section>
+
+     <section class="car">
+       <div class="container container-flex">
+         <div class="car__img">
+          <img src="image/car.png" alt="">
+        </div>
+        <div class="car__text">
+          <h2 class="g-title car__title">Sicherheitsdienst mit individuellen Leistungen</h2>
+          <p>Ob im Hamburger Hafen, in Industrie- und Gewerbegebieten oder rund um die Messe, schützen wir Ihr Eigentum vor rechtswidrigen Angriffen und sonstigen Schadensereignissen. Unsere Qualität ist zertifiziert, was sich positiv auf unsere erbrachten Leistungen und die hohen Standards auswirkt. Zudem veranschlagen die meisten Versicherungen für die Gewährung des Versicherungsschutzes strenge Vorgaben.</p>
+        </div>
+       </div>
+     </section>
+     <section class="erfaherer">
+       <div class="container container-flex">
+         <div class="erfaherer__text">
+           <h2 class="g-title">
+             Erfahrener und kompetenter Fachpartner in Sicherheitsfragen in Hamburg
+           </h2>
+           <p class="erfaherer__text-margin">
+             Seit 1992 haben wir reichhaltige Dienstleistungen zusammengestellt, von denen Ladengeschäfte, Betriebe, Firmen, Lagerräume, Dienstleister und Fabriken profitieren. Mit einem umfassenden Branchenverständnis treten wir vor Ort in Hamburg auf und gewährleisten zertifizierte Sicherheitskonzepte, die von Anfang an überzeugen. Unser Fachpersonal ist jederzeit vor Ort und schafft mit unserem freundlichen Team eine Sicherheitslösung, die auf Diskretion, zuverlässige Leistungen, eine persönliche Beratung und einen umfassenden Schutz zurückgeht.
+           </p>
+           <p>
+             Für Ihre Sicherheit und den Schutz Ihres Eigentums bietet Hauschildt & Blunck individuelle Sicherheitsdienstleistungen.
+           </p>
+         </div>
+
+
+
+         <div class="erfaherer__image">
+           <img src="image/Ellipse 128.png" class="erfaherer__image-png1" alt="">
+           <img src="image/svg/red1.svg" class="erfaherer__image-svg1" alt="">
+           <img src="image/svg/red1.svg" class="erfaherer__image-svg2" alt="">
+           <img src="image/svg/red1.svg" class="erfaherer__image-svg3" alt="">
+           <img src="image/svg/red1.svg" class="erfaherer__image-svg4" alt="">
+           <img src="image/svg/red1.svg" class="erfaherer__image-svg5" alt="">
+           <img src="image/svg/red1.svg" class="erfaherer__image-svg6" alt="">
+           <img src="image/men1.png" class="erfaherer__image-png2"alt="">
+         </div>
+       </div>
+     </section>
+     <section class="twoguyes">
+       <div class="container container-flex">
+        <div class="guyleft">
+          <img src="image/guyleft.png" alt="">
+          <h2 class="g-title">
+            Regionale Sicherheit Dienstleistungen, Wachschutz und mobiler Kontrolldienst
+          </h2>
+          <p>
+            Die Leistungen eines Sicherheitsdienstes in Hamburg machen sich immer dann bezahlt, wenn es zum Ernstfall kommt und ohne Umwege in schnellster Zeit die gebuchten Dienstleistungen zur Verfügung stehen. Hier spielt einzig und allein der umfassende Schutz unserer Kunden eine ausschlaggebende Rolle, wenn es darum geht, in risikoreichen Zeiten und bei einer potentiellen Bedrohung unverzüglich einzugreifen.
+          </p>
+          <p>
+            Buchen Sie Ihr individuelles Konzept und fordern Sie noch heute ein kostenloses Angebot an, das einen umfassenden Schutz gegen Vandalismus und Diebstahl gewährleistet. Stellen Sie niemals die innerbetriebliche Sicherheit und ihre Zukunft auf die Probe, sondern entscheiden Sie sich frühzeitig für den geeigneten Partner vor Ort in Hamburg. In der gesamten Hamburger Region und Umgebung sowie in der Hansestadt selbst bieten sich jährlich wechselnde Herausforderungen. Es entscheidet sich also anhand der eigentlichen Position, welche der Sicherheitsdienstleistungen infrage kommen. Vertrauen Sie auf unser Know-how, das seit 1992 besteht und entscheiden Sie sich für den passenden Sicherheitsdienst in Hamburg, der Ihnen zur Seite steht.
+          </p>
+        </div>
+        <div class="guyright">
+          <h2 class="g-title">
+          Regionale Sicherheit Dienstleistungen, Wachschutz und mobiler Kontrolldienst
+        </h2>
+         <p>
+           In Orientierung am Bundesverband der Sicherheitswirtschaft arbeitet bei uns ausschließlich qualifiziertes Fachpersonal, das über reichhaltiges Know-how verfügt, um professionell, zuverlässig und kompetent aufzutreten. Das gilt für den Streifendienst ebenso wie für den Objektschutz und den Wachschutz. Dabei entscheidet die Erfahrung in der Hamburger Region über die Qualität der Überwachung, denn die Kollegen vor Ort können einschätzen, welche Risiken sich tagtäglich vor der eigenen Ladentür ergeben.
+         </p>
+         <p>
+           Es ist also äußerst wichtig, auf individuelle Dienstleistungen, Werkschutz und Wachdienst sowie einen <a href="#">mobilen Kontrolldienst</a>  zu setzen, der in Abstimmung zur Region und Stadt entscheidet und keine Pauschallösung aus der Tasche zieht. Nur so können Sie zukünftig auf potentielle Risiken maßstabsgenau eingehen, ohne das eigene Sicherheitskonzept immer wieder aktiv, neu ausrichten zu müssen. Im Ernstfall greift unsere Notrufzentrale. Hier erreichen Sie zu jedem Zeitpunkt Fachpersonal und einen passenden Ansprechpartner, der sofort weiterhilft und in wenigen Augenblicken verfügbar ist.
+         </p>
+         <img src="image/guyright.png" alt="">
+        </div>
+       </div>
+     </section>
+     <section class="initiativ">
+      
+        <h2 class="g-title">Initiativbewerbung</h2>
+        <p>Bewerben Sie sich gerne für folgende Stellenauschreibungen und Ausbildung für Fachkraft für Schutz und Sicherheit</p>
+        <div class="container container-flex">
+        <div class="initiativ__item">
+          <h3 class="initiativ__title">Sicherheitsdienstmitarbeiter
+(m/w) in Vollzeit</h3>
+          <a href="#" class="initiativ__link">
+            <span>Learn more about job</span>
+            <img src="image/svg/arrow.svg" alt="" ></a>
+        </div>
+        <div class="initiativ__item">
+          <h3 class="initiativ__title">Fachkraft für Schutz & Sicherheit (m/w) in Vollzeit</h3>
+          <a href="#" class="initiativ__link">
+            <span>Learn more about job</span>
+            <img src="image/svg/arrow.svg" alt="" ></a>
+        </div>
+        <div class="initiativ__item">
+          <h3 class="initiativ__title">Ausbildung zur Fachkraft für Schutz und Sicherheit (m/w)</h3>
+          <a href="#" class="initiativ__link">
+            <span>Learn more about job</span>
+            <img src="image/svg/arrow.svg" alt=""></a>
+        </div>
+      </div>  
+     </section>
+
+     <section class="datainput datainput__container">
+       <div class="datainput__wrap-flex">
+         <div class="datainput__unit">
+           <div class="datainput__text">
+             <h2 class="g-title datainput__title">Jetzt unverbindlich anfragen</h2>
+             <p>Senden Sie uns jetzt ganz einfach Ihre unverbindliche Anfrage und Sie erhalten umgehend ein maßgeschneidertes Angebot von uns!</p>
+           </div>
+           <div class="datainput__left">
+             <h3 class="datainput__title-left">Unsere Kontaktdaten</h3>
+             <ul class="datainput__left-list">
+               <li>
+                <span class="smaltext">Telefon</span>
+                <span class="bigtext">0800 8770 500</span>
+              </li>
+               <li>
+                <span class="smaltext">E-Mail</span>
+                <span class="bigtext">info@hauschildtundblunck.de</span>
+              </li>
+               <li>
+                <span class="smaltext">Adresse</span>
+                <span class="bigtext">Großer Burstah 46-48 20457 Hamburg</span>
+              </li>
+             </ul>
+           </div>
+         </div>
+         <div class="datainput__right">
+           <div class="datainput__right-item">
+             <div class="datainput__right-inner">
+              <span>Firma*</span>
+              <input type="text" placeholder="Firma">
+            </div>
+             <div class="datainput__right-inner">
+              <span>E-mail address*</span>
+              <input type="text" placeholder="example@example.com">
+            </div>
+             <div class="datainput__right-inner">
+              <span>Betreff *</span>
+              <input type="text" placeholder="Choose variant">
+              <img src="image/svg/arrow2.svg" alt="" class="icon"> 
+            </div>
+            <div class="datainput__right-inner datainput__right-inner--checkbox">
+              <input type="checkbox">
+              <span>Hiermit akzeptiere ich die Datenschutzbedingungen</span>
+            </div>
+           </div>
+           <div class="datainput__right-item">
+             <div class="datainput__right-inner">
+              <span>Name*</span>
+              <input type="text" placeholder="Name">
+            </div>
+             <div class="datainput__right-inner">
+              <span>Telefonnummer*</span>
+              <input type="text" placeholder="(555) 555-5555">
+            </div>
+             <div class="datainput__right-inner">
+              <span>Additional Message (optional)</span>
+              <input type="text" placeholder="Any words goes here">
+              <img src="image/svg/clip.svg" alt="" class="icon">
+            </div>
+           </div>
+         </div>
+       </div>
+     </section>
+    
+     <section class="faq">
+       <h2 class="g-title">FAQ Stellenangebote</h2>
+       <h3 class="faq__title">Hier ein paar Antworten auf häufig gestellte Fragen:</h3>
+       <div class="container sub-container">
+         <ul class="faq__list">
+           <li class="faq__item">
+             <div class="faq__item-flex">
+               <span>Wie bewerbe ich mich bei Hauschildt & Blunck?</span>
+               <img src="image/svg/Vector 1.svg" alt="">
+             </div>
+           </li>
+           <li class="faq__item">
+             <div class="faq__item-flex">
+               <span>Welche Qualifikationen/Voraussetzungen muss ich für den Bereich Sicherheitsdienst haben, um bei Hauschildt & Blunck zu arbeiten?</span>
+               <img src="image/svg/Vector 1.svg" alt="">
+             </div>
+             <div class="faq__item-accord">
+               <p class="faq__item-text">Es gibt zwei Möglichkeiten sich bei Hauschildt & Blunck zu bewerben:</p>
+               <ol>
+                 <li class="faq__item-text">Online über unsere Website: Nutzen Sie hierfür die Links zu unserem Bewerbungsformular unter den <a href="#">Stellenbeschreibungen</a></li>
+                 <li class="faq__item-text">Mit einer klassischen Papierbewerbung. Die Anschriften der regionalen Hauschildt & Blunck-Niederlassungen finden <a href="#">Sie hier</a></li>
+               </ol>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </section>  
+
+  </main>
+    <footer>
+      <div class="footer-top">
+        <div class="container footer-top__flex">
+          <a href="#" class="footer-top__logo">
+            <img src="image/svg/footer-logo.svg" alt="">
+          </a>
+          <div class="footer-top__list">
+            <h2 class="g-title footer-top__title">Standorte und Leistungen</h2>
+            <div class="footer-list__flex">
+              <ul class="footer-top__item">
+                <li>
+                  <a href="#">Sicherheitsdienst in Hamburg</a>
+                </li>
+                <li>
+                  <a href="#">Sicherheitsdienst in Berlin</a>
+                </li>
+                <li>
+                  <a href="#">Sicherheitsdienst in Hannover</a>
+                </li>
+                <li>
+                  <a href="#">Sicherheitsdienst in Kiel</a>
+                </li>
+                <li>
+                  <a href="#">Sicherheitsdienst in Köln</a>
+                </li>
+                <li>
+                  <a href="#">Sicherheitsdienst in Frankfurt</a>
+                </li>
+                <li>
+                  <a href="#">Standortübersicht</a>
+                </li>
+              </ul>
+              <ul class="footer-top__item">
+                <li>
+                  <a href="#">Mobiler Kontrolldienst</a>
+                </li>
+                <li>
+                  <a href="#">Sicherheitstechnik</a>
+                </li>
+                <li>
+                  <a href="#">Interventionsdienst</a>
+                </li>
+                <li>
+                  <a href="#">Werkschutz</a>
+                </li>
+                <li>
+                  <a href="#">Notrufzentrale</a>
+                </li>
+                <li>
+                  <a href="#">Wachdienst und Objektschutz</a>
+                </li>
+                <li>
+                  <a href="#">Empfangsdienst</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-top__star">
+            <h3>Kundenbewertungen</h3>
+            <img src="image/svg/star.svg" alt="" class="footer-top__stars">
+            <a href="#">50 Bewertungen auf ProvenExpert.com</a>
+            <h2 class="g-title g-title__star">Zertifikate</h2>
+            <div class="container-flex">
+              <img src="image/svg/footer-zert-1.svg" alt="">
+              <img src="image/svg/footer-zert-2.svg" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+
+      <div class="footer-bottom">
+        <div class="container container-flex">
+          <ul class="footer-bottom__list">
+            <li>
+              <a href="#">Cookies konfigurieren</a>
+            </li>
+            <li>
+              <a href="#">Intern</a>
+            </li>
+            <li>
+              <a href="#">Impressum</a>
+            </li>
+            <li>
+              <a href="#">Datenschutz</a>
+            </li>
+          </ul>
+          <span class="footer-bottom__phone">
+            Copyright © 2022 Hauschildt & Blunck™. All rights reserved
+          </span>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <div class="helper"></div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
