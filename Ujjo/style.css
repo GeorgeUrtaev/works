@@ -68,6 +68,12 @@
 	border-top:none;
 	align-items: center;
 }
+.hotsause__ticker-text
+{
+	display: flex;
+	align-items: center;
+	gap:28px;
+}
 .hotsause__color-img1
 {
 	padding: 20px 20px 30px 20px;
