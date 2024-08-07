@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>POPUP</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="center">
+		<div class="popupBtn" onclick="show('.popup')">
+			POPUP
+		</div>
+	</div>
+	<div class="popup">
+		<div class="popup__wrap">
+			<div class="popup__wrap-input">
+				<p>Введите своё имя</p>
+				<input type="text" placeholder="ФИО">
+			</div>
+			<div class="popup__wrap-input">
+				<p>Введите адрес</p>
+				<input type="text" placeholder="АДРЕС">
+			</div>
+			<div class="popup__wrap-btn" onclick="remove('.popup')">
+				<button>ОТПРАВИТЬ</button>
+			</div>
+			<div class="popup__wrap-close" onclick="remove('.popup')">
+				<img src="images/Property 1=Default.svg" alt="закрыть">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
