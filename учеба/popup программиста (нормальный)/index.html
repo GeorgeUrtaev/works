@@ -7,22 +7,23 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="popup__center">
-		<button class="popup__open">
-			Сезам откройся
-		</button>
-	</div>
-	<div class="popup__bg">
-		<div class="popup">
-			<p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab incidunt ratione, vero! Debitis, nesciunt, aliquam. At, delectus in ipsa minus laborum earum ratione. Iste magni voluptatibus totam ipsa autem!</p>
-			<div class="popup__close-center">
-				<button class="popup__close">
-					Сезам закройся
-				</button>
+	<div class="popup__wrap">
+		<div class="popup__center">
+			<button class="popup__open" onclick='mainPopup.init(this)'>
+				Сезам откройся
+			</button>
+		</div>
+		<div class="popup__bg">
+			<div class="popup">
+				<p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab incidunt ratione, vero! Debitis, nesciunt, aliquam. At, delectus in ipsa minus laborum earum ratione. Iste magni voluptatibus totam ipsa autem!</p>
+				<div class="popup__close-center">
+					<button class="popup__close" onclick="mainPopup.closePopup()">
+						Сезам закройся
+					</button>
+				</div>
 			</div>
 		</div>
 	</div>
-
 
 
 

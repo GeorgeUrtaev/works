@@ -1,4 +1,4 @@
-let pokagiTitki = function(instance)
+let show = function(instance)
 {
 	let wrap = instance.closest('.wrap'),
 		wrapText = wrap.querySelector('.wrap__text'),
