@@ -1,0 +1,102 @@
+.wirDia__table
+{
+	margin-bottom: 30px;
+}
+.table50__wrap:not(:last-child)
+{
+	margin-bottom: 20px;
+}
+.wirDia__title
+{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.6px;
+	color: rgba(255, 255, 255, 1);
+	margin-bottom: 30px;
+}
+.wirDia__subtitle
+{
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 14.3px;
+	margin-bottom: 20px;
+	color: rgba(198, 202, 202, 1);
+}
+.table50__list
+{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.table50__title
+{
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 14.3px;
+	color:rgba(255, 255, 255, 1);
+	margin-bottom: 15px;
+}
+.table50__item
+{
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 14.3px;
+	color:rgba(198, 202, 202, 1);
+}
+.wirDia__img
+{
+	border-radius: 20px;
+	margin: 0 auto 73px;
+	display: block;
+}
+
+
+@media(min-width: 1024px)
+{
+	.wirDia__wrap
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+	.wirDia__title
+	{
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 36px;
+		margin-bottom: 40px;
+	}
+	.wirDia__subtitle
+	{
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 18.7px;
+		margin-bottom: 30px;
+	}
+	.table50__title
+	{
+		font-size: 17px;
+		font-weight: 500;
+		line-height: 18.7px;
+		margin-bottom: 20px;
+	}
+	.table50__item
+	{
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 18.7px;
+	}
+	.table50__wrap:not(:last-child)
+	{
+		margin-bottom: 30px;
+	}
+	.wirDia__img
+	{
+		width: 400px;
+		height: 400px;
+		margin: 0;
+	}
+	.wiringDiagram
+	{
+		margin-bottom: 120px;
+	}
+}

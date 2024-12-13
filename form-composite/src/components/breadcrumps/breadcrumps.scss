@@ -1,0 +1,30 @@
+.breadcrumps
+{
+	display: flex;
+	justify-content: start;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 13.2px;
+	margin-bottom: 30px;
+	gap:18px;
+	a
+	{
+		color: rgba(111, 113, 113, 1);
+		position: relative;
+		&:not(:last-child)::after
+		{
+			content: '';
+			width: 1px;
+			height: 9px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-55%) rotate(26deg);
+			right: -9px;
+			background: #6F7171;
+		}
+	}
+	div
+	{
+		color: rgba(163, 167, 167, 1);
+	}
+}

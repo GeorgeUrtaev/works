@@ -1,0 +1,84 @@
+.ArticleTable
+{
+	margin-bottom: 80px;
+}
+.ArticleTable__title
+{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.6px;
+	margin-bottom: 30px;
+	color: rgba(255, 255, 255, 1);
+}
+.ArticleTable__table
+{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15.4px;
+	color:rgba(234, 234, 234, 1);
+	border-collapse: collapse;
+	background-color: rgba(34, 37, 37, 1);
+	border-radius: 20px;
+	white-space: nowrap;
+	margin-bottom: 15px;
+
+	tr:first-child
+	{
+		font-weight: 500;
+		color: rgba(255, 255, 255, 1);
+	}
+	td:first-child
+	{
+		border-left: 0;
+	}
+	td:last-child
+	{
+		border-right: 0;
+	}
+	td
+	{
+		padding: 15px;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+	}
+	thead tr td
+	{
+		border-top: 0;
+	}
+	tbody tr:last-child td
+	{
+		border-bottom: 0;
+	}
+	tbody tr td:first-child
+	{
+		padding-left: 20px;
+	}
+}
+.ArticleTable
+{
+	overflow-x: auto;
+	.ArticleTable__table
+	{
+		border: 0;
+	}
+}
+
+
+
+@media(min-width: 1024px)
+{
+	.ArticleTable__title
+	{
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 36px;
+		margin-bottom: 40px;
+	}
+	.ArticleTable__table
+	{
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 15.4px;
+		margin-bottom: 30px;
+	}
+}
+

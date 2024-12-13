@@ -1,0 +1,22 @@
+<div class="questions-pop" style="display: none;">
+	<div class="g-popup__content">
+		<div class="g-popup__close" onclick="mainObj.gPopup.close()">
+			{% include 'assets/svg/close.svg' %}
+		</div>
+			<form onsubmit="mainObj.submit(this, event)" class="value-wrap">
+				<h2 class="question__value _value">Для уточнения любой, интересующей Вас информации, заполните форму обратной связи, и мы обязательно Вам ответим!</h2>
+				<label class="input__wrap">
+					<input type="text" class="_fioReq _fio" placeholder="ФИО">
+				</label>
+				<label class="input__wrap">
+					<input type="text" class="_fioReq _phone" placeholder="Телефон">
+				</label>
+				<label class="input__wrap">
+					<textarea placeholder="Вопрос "></textarea>
+				</label>
+				
+				<button class="questions-pop__btn">Задать вопрос</button>
+				<p>Нажимая кнопку “Задать вопрос” вы подтверждаете согласие с <a href="#">политикой конфиденциальности</a> сайта</p>
+			</form>
+	</div>
+</div>

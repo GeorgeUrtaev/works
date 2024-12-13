@@ -1,0 +1,76 @@
+.tecSpec__title
+{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.6px;
+	margin-bottom: 30px;
+	color:rgba(255, 255, 255, 1);
+}
+.tecSpec__table
+{
+	margin-bottom: 80px;
+}
+.tecSpecTable__wrap
+{
+	display: flex;
+	&:not(:last-child)
+	{
+		padding: 15px 0;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	}
+	&:first-child
+	{
+		padding-top: 0;
+	}
+	&:last-child
+	{
+		padding-top: 15px;
+	}
+}
+.table__title
+{
+	color: rgba(234, 234, 234, 1);
+	flex-basis: 50%;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 14.3px;
+
+}
+.table__description
+{
+	flex-basis: 50%;
+	color: rgba(198, 202, 202, 1);
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 14.3px;
+}
+@media(min-width: 1024px)
+{
+	.tecSpec__title
+	{
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 36px;
+		margin-bottom: 40px;
+	}
+	.tecSpec__table
+	{
+		background: rgba(34, 37, 37, 1);
+		padding: 40px;
+		border-radius: 20px;
+		margin-bottom: 120px;
+	}
+	.table__title
+	{
+		font-size: 17px;
+		font-weight: 500;
+		line-height: 18.7px;
+
+	}
+	.table__description
+	{
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 18.7px;
+	}
+}

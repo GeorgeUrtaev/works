@@ -1,0 +1,64 @@
+<section class="relatedProducts container">
+	<h2 class="relPro__title">
+		Сопутствующие товары
+	</h2>
+	<div class="relPro__list">
+		<div class="relPro__item">
+			<img src="images/Solid cable tray.png" alt="">
+			<div class="el__link">
+				<span>Лоток кабельный сплошной</span>
+				<a href="#">{% include 'assets/svg/arrow-right.svg' %}</a>
+			</div>
+		</div>
+		<div class="relPro__item">
+			<img src="images/Perforated cable tray.png" alt="">
+			<div class="el__link">
+				<span>Лоток кабельный перфорированный</span>
+				<a href="#">{% include 'assets/svg/arrow-right.svg' %}</a>
+			</div>
+		</div>
+		<div class="relPro__item">
+			<img src="images/Straight connecting plate.png" alt="">
+			<div class="el__link">
+				<span>Пластина соединительная прямая</span>
+				<a href="#">{% include 'assets/svg/arrow-right.svg' %}</a>
+			</div>
+		</div>
+	</div>
+<div class="swiper relPro__Swiper">
+    <div class="swiper-wrapper">
+      		<div class="swiper-slide">
+	      		<div class="relPro__el">
+					<img src="images/Solid cable tray.png" alt="">
+					<div class="el__link container-flex">
+						<span>Лоток кабельный сплошной</span>
+						<a href="#">{% include 'assets/svg/arrow-right.svg' %}</a>
+					</div>
+				</div>
+			</div>
+      	<div class="swiper-slide">
+	  		<div class="relPro__el">
+				<img src="images/Perforated cable tray.png" alt="">
+				<div class="el__link container-flex">
+					<span>Лоток кабельный перфорированный</span>
+					<a href="#">{% include 'assets/svg/arrow-right.svg' %}</a>
+				</div>
+			</div>
+      	</div>
+      	<div class="swiper-slide">
+      		<div class="relPro__el">
+				<img src="images/Straight connecting plate.png" alt="">
+				<div class="el__link container-flex">
+					<span>Пластина соединительная прямая</span>
+					<a href="#">{% include 'assets/svg/arrow-right.svg' %}</a>
+				</div>
+			</div>
+      	</div>
+    </div>
+   <div class="swiper-pagination"></div>
+</div>
+		<button class="relPro__btn">
+			<span class="relPro__btn-text">Скачать каталог продукции в PDF</span>
+			{% include 'assets/svg/download.svg' %}
+		</button>
+</section>

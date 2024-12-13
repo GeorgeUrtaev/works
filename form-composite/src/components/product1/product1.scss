@@ -1,0 +1,160 @@
+.header2
+{
+	margin-bottom: 22px;
+}
+.product1__link
+{
+	display: flex;
+	gap: 5px;
+	white-space: nowrap;
+	margin-bottom: 12px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding-bottom: 10px;
+}
+.product1__link a, .product1__link span
+{
+	color: rgba(111, 113, 113, 1);
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 13.2px;
+}
+.product1__link a:last-child
+{
+	color: rgba(163, 167, 167, 1);
+}
+.product1__title
+{
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 1);
+}
+.navFixed
+{	
+	background: rgba(34, 37, 37, 0.9);
+	color: rgba(25, 190, 203, 1);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-size: 14px;
+	font-weight: 700;
+	z-index: 100;
+
+	&.active
+	{
+		border-radius: 20px 20px 0 0;
+	}
+	.navFixed__list
+	{
+		padding-bottom: 7px;
+		li
+		{
+			padding: 15px 0;
+			cursor: pointer;
+		}
+		a
+		{
+			font-size: 14px;
+			font-weight: 700;
+			color: rgba(255, 255, 255, 1);
+		}
+	}
+	.navFixed__onclick
+	{
+		max-height: 55px;
+		height: 100%;
+		line-height: 55px;
+		cursor: pointer;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.product1__img
+{
+	border-radius: 20px;
+	margin: 0 auto 30px;
+	display: block;
+}
+.product1__text
+{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15.4px;
+	color: rgba(255, 255, 255, 1);
+
+	h3
+	{
+		font-weight: 600;
+		margin-bottom: 15px;
+	}
+	.product1Text__description
+	{
+		margin-bottom: 25px;
+	}
+	.product1Text__application
+	{
+		margin-bottom: 80px;
+	}
+}
+
+@media(min-width: 1024px)
+{
+
+	.product1__link
+	{
+		margin-bottom: 50px;		
+	}
+	.product1__link a, .product1__link span
+	{
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 19.8px;
+	}
+	.product1__title
+	{
+		font-size: 45px;
+		font-weight: 700;
+		line-height: 54px;
+		margin-bottom: 60px;
+	}
+	.product1__flex
+	{
+		display: flex;
+		justify-content: space-between;
+		gap:50px;
+		margin-bottom: 120px;
+
+		.product1__img
+		{
+			width: 400px;
+			height: 400px;
+		}
+		.product1__text
+		{
+			h3
+			{
+				font-size: 18px;
+				font-weight: 600;
+				line-height: 19.8px;
+				margin-bottom: 25px;
+			}
+			span
+			{
+				font-size: 17px;
+				font-weight: 400;
+				line-height: 18.7px;
+			}
+			.product1Text__description
+			{
+				margin-bottom: 35px;
+			}
+		}
+	}
+	.navFixed
+	{
+		display: none;
+	}
+
+}
